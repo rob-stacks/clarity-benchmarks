@@ -1,0 +1,78 @@
+{
+  "+": [
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 524476,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 12 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 13 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 14 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 15 }])",
+      "instructions": 841152
+    },
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 544583,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 3 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 4 }])",
+      "instructions": 631338
+    },
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 529428,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 7 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 8 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 9 }])",
+      "instructions": 735422
+    }
+  ],
+  "to-ascii?": [
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 534175,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 18 }])",
+      "instructions": 643983
+    },
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 525930,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10)), id: 21 }])",
+      "instructions": 644400
+    },
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 529817,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(100)), id: 24 }])",
+      "instructions": 645501
+    },
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 555845,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1000)), id: 27 }])",
+      "instructions": 645945
+    },
+    {
+      "calls": 100,
+      "duration": {
+        "nanos": 524240,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10000)), id: 30 }])",
+      "instructions": 649496
+    }
+  ]
+}
