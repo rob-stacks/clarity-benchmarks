@@ -1,0 +1,846 @@
+{
+  "*": [
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 8014,
+      "avg_instructions": 6911,
+      "avg_ref_cpu_cycles": 5765,
+      "calls": 1000,
+      "cpu_cycles": 8014160,
+      "duration": {
+        "nanos": 11942954,
+        "secs": 0
+      },
+      "expression": "* ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 33 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 34 }])",
+      "instructions": 6911571,
+      "ref_cpu_cycles": 5765550
+    },
+    {
+      "args": [
+        "1",
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7793,
+      "avg_instructions": 8068,
+      "avg_ref_cpu_cycles": 5607,
+      "calls": 1000,
+      "cpu_cycles": 7793162,
+      "duration": {
+        "nanos": 12000509,
+        "secs": 0
+      },
+      "expression": "* ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 37 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 38 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 39 }])",
+      "instructions": 8068280,
+      "ref_cpu_cycles": 5607679
+    },
+    {
+      "args": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7933,
+      "avg_instructions": 9173,
+      "avg_ref_cpu_cycles": 5682,
+      "calls": 1000,
+      "cpu_cycles": 7933013,
+      "duration": {
+        "nanos": 11800915,
+        "secs": 0
+      },
+      "expression": "* ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 42 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 43 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 44 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 45 }])",
+      "instructions": 9173723,
+      "ref_cpu_cycles": 5682425
+    }
+  ],
+  "+": [
+    {
+      "args": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 8355,
+      "avg_instructions": 8958,
+      "avg_ref_cpu_cycles": 5997,
+      "calls": 1000,
+      "cpu_cycles": 8355281,
+      "duration": {
+        "nanos": 12056436,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 12 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 13 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 14 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 15 }])",
+      "instructions": 8958803,
+      "ref_cpu_cycles": 5997768
+    },
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 10137,
+      "avg_instructions": 6656,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 10137865,
+      "duration": {
+        "nanos": 12570208,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 126 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 127 }])",
+      "instructions": 6656518,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7678,
+      "avg_instructions": 6644,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 7678213,
+      "duration": {
+        "nanos": 11718991,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 139 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 140 }])",
+      "instructions": 6644444,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7854,
+      "avg_instructions": 6774,
+      "avg_ref_cpu_cycles": 5649,
+      "calls": 1000,
+      "cpu_cycles": 7854672,
+      "duration": {
+        "nanos": 11857854,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 3 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 4 }])",
+      "instructions": 6774568,
+      "ref_cpu_cycles": 5649042
+    },
+    {
+      "args": [
+        "1",
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7777,
+      "avg_instructions": 7866,
+      "avg_ref_cpu_cycles": 5586,
+      "calls": 1000,
+      "cpu_cycles": 7777676,
+      "duration": {
+        "nanos": 11915909,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 7 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 8 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 9 }])",
+      "instructions": 7866152,
+      "ref_cpu_cycles": 5586665
+    },
+    {
+      "args": [
+        "2",
+        "2"
+      ],
+      "avg_cpu_cycles": 7020,
+      "avg_instructions": 6615,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 7020995,
+      "duration": {
+        "nanos": 12238407,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(2)), id: 130 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 131 }])",
+      "instructions": 6615952,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "2",
+        "2"
+      ],
+      "avg_cpu_cycles": 6753,
+      "avg_instructions": 6603,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 6753617,
+      "duration": {
+        "nanos": 11442703,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(2)), id: 143 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 144 }])",
+      "instructions": 6603916,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "u1",
+        "u2"
+      ],
+      "avg_cpu_cycles": 8272,
+      "avg_instructions": 6642,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 8272767,
+      "duration": {
+        "nanos": 11802540,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(UInt(1)), id: 151 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 152 }])",
+      "instructions": 6642986,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "u1",
+        "u2"
+      ],
+      "avg_cpu_cycles": 7584,
+      "avg_instructions": 6643,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 7584123,
+      "duration": {
+        "nanos": 11939972,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(UInt(1)), id: 158 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 159 }])",
+      "instructions": 6643236,
+      "ref_cpu_cycles": 0
+    }
+  ],
+  "-": [
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 8327,
+      "avg_instructions": 6823,
+      "avg_ref_cpu_cycles": 5971,
+      "calls": 1000,
+      "cpu_cycles": 8327498,
+      "duration": {
+        "nanos": 12047882,
+        "secs": 0
+      },
+      "expression": "- ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 18 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 19 }])",
+      "instructions": 6823510,
+      "ref_cpu_cycles": 5971567
+    },
+    {
+      "args": [
+        "1",
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7762,
+      "avg_instructions": 7925,
+      "avg_ref_cpu_cycles": 5569,
+      "calls": 1000,
+      "cpu_cycles": 7762004,
+      "duration": {
+        "nanos": 12103079,
+        "secs": 0
+      },
+      "expression": "- ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 22 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 23 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 24 }])",
+      "instructions": 7925860,
+      "ref_cpu_cycles": 5569907
+    },
+    {
+      "args": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 7965,
+      "avg_instructions": 9005,
+      "avg_ref_cpu_cycles": 5719,
+      "calls": 1000,
+      "cpu_cycles": 7965653,
+      "duration": {
+        "nanos": 12071275,
+        "secs": 0
+      },
+      "expression": "- ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 27 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 28 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 29 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 30 }])",
+      "instructions": 9005432,
+      "ref_cpu_cycles": 5719665
+    }
+  ],
+  "as-contract?": [
+    {
+      "args": [
+        "( ( with-all-assets-unsafe ) )",
+        "( + 1 1 )",
+        "( + 2 2 )"
+      ],
+      "avg_cpu_cycles": 33266,
+      "avg_instructions": 38382,
+      "avg_ref_cpu_cycles": 34301,
+      "calls": 1000,
+      "cpu_cycles": 33266125,
+      "duration": {
+        "nanos": 68549805,
+        "secs": 0
+      },
+      "expression": "as-contract? ([SymbolicExpression { expr: List([SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"with-all-assets-unsafe\")), id: 136 }]), id: 135 }]), id: 134 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 138 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 139 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 140 }]), id: 137 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 142 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 143 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 144 }]), id: 141 }])",
+      "instructions": 38382174,
+      "ref_cpu_cycles": 34301365
+    },
+    {
+      "args": [
+        "( ( with-stx u100 ) )",
+        "( + 1 1 )",
+        "( + 2 2 )"
+      ],
+      "avg_cpu_cycles": 40031,
+      "avg_instructions": 39494,
+      "avg_ref_cpu_cycles": 41081,
+      "calls": 1000,
+      "cpu_cycles": 40031783,
+      "duration": {
+        "nanos": 70457274,
+        "secs": 0
+      },
+      "expression": "as-contract? ([SymbolicExpression { expr: List([SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"with-stx\")), id: 122 }, SymbolicExpression { expr: LiteralValue(UInt(100)), id: 123 }]), id: 121 }]), id: 120 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 125 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 126 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 127 }]), id: 124 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 129 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 130 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 131 }]), id: 128 }])",
+      "instructions": 39494200,
+      "ref_cpu_cycles": 41081705
+    },
+    {
+      "args": [
+        "( )",
+        "( + u1 u2 )"
+      ],
+      "avg_cpu_cycles": 22213,
+      "avg_instructions": 23197,
+      "avg_ref_cpu_cycles": 21382,
+      "calls": 1000,
+      "cpu_cycles": 22213896,
+      "duration": {
+        "nanos": 40569669,
+        "secs": 0
+      },
+      "expression": "as-contract? ([SymbolicExpression { expr: List([]), id: 155 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 157 }, SymbolicExpression { expr: LiteralValue(UInt(1)), id: 158 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 159 }]), id: 156 }])",
+      "instructions": 23197493,
+      "ref_cpu_cycles": 21382410
+    }
+  ],
+  "contract-hash?": [
+    {
+      "args": [
+        "current-contract"
+      ],
+      "avg_cpu_cycles": 61209,
+      "avg_instructions": 41079,
+      "avg_ref_cpu_cycles": 46262,
+      "calls": 1000,
+      "cpu_cycles": 61209278,
+      "duration": {
+        "nanos": 49718752,
+        "secs": 0
+      },
+      "expression": "contract-hash? ([SymbolicExpression { expr: Atom(ClarityName(\"current-contract\")), id: 117 }])",
+      "instructions": 41079560,
+      "ref_cpu_cycles": 46262853
+    }
+  ],
+  "current-contract": [
+    {
+      "args": [],
+      "avg_cpu_cycles": 3324,
+      "avg_instructions": 2102,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 3324640,
+      "duration": {
+        "nanos": 10615028,
+        "secs": 0
+      },
+      "expression": "current-contract",
+      "instructions": 2102659,
+      "ref_cpu_cycles": 0
+    }
+  ],
+  "false": [
+    {
+      "args": [],
+      "avg_cpu_cycles": 2729,
+      "avg_instructions": 1866,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 2729569,
+      "duration": {
+        "nanos": 10459236,
+        "secs": 0
+      },
+      "expression": "false",
+      "instructions": 1866647,
+      "ref_cpu_cycles": 0
+    }
+  ],
+  "restrict-assets?": [
+    {
+      "args": [
+        "tx-sender",
+        "( )",
+        "( + u1 u2 )"
+      ],
+      "avg_cpu_cycles": 29523,
+      "avg_instructions": 27833,
+      "avg_ref_cpu_cycles": 29587,
+      "calls": 1000,
+      "cpu_cycles": 29523676,
+      "duration": {
+        "nanos": 67109621,
+        "secs": 0
+      },
+      "expression": "restrict-assets? ([SymbolicExpression { expr: Atom(ClarityName(\"tx-sender\")), id: 147 }, SymbolicExpression { expr: List([]), id: 148 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 150 }, SymbolicExpression { expr: LiteralValue(UInt(1)), id: 151 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 152 }]), id: 149 }])",
+      "instructions": 27833187,
+      "ref_cpu_cycles": 29587978
+    }
+  ],
+  "to-ascii?": [
+    {
+      "args": [
+        "false"
+      ],
+      "avg_cpu_cycles": 13590,
+      "avg_instructions": 11991,
+      "avg_ref_cpu_cycles": 11780,
+      "calls": 1000,
+      "cpu_cycles": 13590574,
+      "duration": {
+        "nanos": 38099709,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"false\")), id: 81 }])",
+      "instructions": 11991908,
+      "ref_cpu_cycles": 11780342
+    },
+    {
+      "args": [
+        "true"
+      ],
+      "avg_cpu_cycles": 13956,
+      "avg_instructions": 11936,
+      "avg_ref_cpu_cycles": 12214,
+      "calls": 1000,
+      "cpu_cycles": 13956247,
+      "duration": {
+        "nanos": 38494074,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"true\")), id: 78 }])",
+      "instructions": 11936723,
+      "ref_cpu_cycles": 12214321
+    },
+    {
+      "args": [
+        "tx-sender"
+      ],
+      "avg_cpu_cycles": 20642,
+      "avg_instructions": 23991,
+      "avg_ref_cpu_cycles": 17066,
+      "calls": 1000,
+      "cpu_cycles": 20642924,
+      "duration": {
+        "nanos": 39963413,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"tx-sender\")), id: 87 }])",
+      "instructions": 23991605,
+      "ref_cpu_cycles": 17066161
+    },
+    {
+      "args": [
+        "1"
+      ],
+      "avg_cpu_cycles": 10209,
+      "avg_instructions": 6852,
+      "avg_ref_cpu_cycles": 7328,
+      "calls": 1000,
+      "cpu_cycles": 10209694,
+      "duration": {
+        "nanos": 12420893,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 48 }])",
+      "instructions": 6852250,
+      "ref_cpu_cycles": 7328965
+    },
+    {
+      "args": [
+        "10"
+      ],
+      "avg_cpu_cycles": 8401,
+      "avg_instructions": 6869,
+      "avg_ref_cpu_cycles": 6029,
+      "calls": 1000,
+      "cpu_cycles": 8401578,
+      "duration": {
+        "nanos": 12204569,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10)), id: 51 }])",
+      "instructions": 6869439,
+      "ref_cpu_cycles": 6029821
+    },
+    {
+      "args": [
+        "100"
+      ],
+      "avg_cpu_cycles": 8099,
+      "avg_instructions": 6881,
+      "avg_ref_cpu_cycles": 5811,
+      "calls": 1000,
+      "cpu_cycles": 8099767,
+      "duration": {
+        "nanos": 11954857,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(100)), id: 54 }])",
+      "instructions": 6881575,
+      "ref_cpu_cycles": 5811302
+    },
+    {
+      "args": [
+        "1000"
+      ],
+      "avg_cpu_cycles": 8072,
+      "avg_instructions": 6886,
+      "avg_ref_cpu_cycles": 5803,
+      "calls": 1000,
+      "cpu_cycles": 8072505,
+      "duration": {
+        "nanos": 12071669,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1000)), id: 57 }])",
+      "instructions": 6886429,
+      "ref_cpu_cycles": 5803056
+    },
+    {
+      "args": [
+        "10000"
+      ],
+      "avg_cpu_cycles": 7924,
+      "avg_instructions": 6900,
+      "avg_ref_cpu_cycles": 5689,
+      "calls": 1000,
+      "cpu_cycles": 7924209,
+      "duration": {
+        "nanos": 11912646,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10000)), id: 60 }])",
+      "instructions": 6900273,
+      "ref_cpu_cycles": 5689474
+    },
+    {
+      "args": [
+        "ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.dummy001"
+      ],
+      "avg_cpu_cycles": 15491,
+      "avg_instructions": 20161,
+      "avg_ref_cpu_cycles": 11109,
+      "calls": 1000,
+      "cpu_cycles": 15491120,
+      "duration": {
+        "nanos": 13804960,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Contract(QualifiedContractIdentifier { issuer: StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE), name: ContractName(\"dummy001\") }))), id: 90 }])",
+      "instructions": 20161322,
+      "ref_cpu_cycles": 11109889
+    },
+    {
+      "args": [
+        "ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.dummy0123456789"
+      ],
+      "avg_cpu_cycles": 14760,
+      "avg_instructions": 20204,
+      "avg_ref_cpu_cycles": 10578,
+      "calls": 1000,
+      "cpu_cycles": 14760900,
+      "duration": {
+        "nanos": 13529715,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Contract(QualifiedContractIdentifier { issuer: StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE), name: ContractName(\"dummy0123456789\") }))), id: 93 }])",
+      "instructions": 20204467,
+      "ref_cpu_cycles": 10578820
+    },
+    {
+      "args": [
+        "ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE"
+      ],
+      "avg_cpu_cycles": 15097,
+      "avg_instructions": 19155,
+      "avg_ref_cpu_cycles": 10815,
+      "calls": 1000,
+      "cpu_cycles": 15097258,
+      "duration": {
+        "nanos": 13852199,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Standard(StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE)))), id: 84 }])",
+      "instructions": 19155927,
+      "ref_cpu_cycles": 10815560
+    },
+    {
+      "args": [
+        "0x01"
+      ],
+      "avg_cpu_cycles": 10726,
+      "avg_instructions": 8065,
+      "avg_ref_cpu_cycles": 7710,
+      "calls": 1000,
+      "cpu_cycles": 10726952,
+      "duration": {
+        "nanos": 12804194,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(01))), id: 96 }])",
+      "instructions": 8065542,
+      "ref_cpu_cycles": 7710010
+    },
+    {
+      "args": [
+        "0x0102"
+      ],
+      "avg_cpu_cycles": 9949,
+      "avg_instructions": 8652,
+      "avg_ref_cpu_cycles": 7139,
+      "calls": 1000,
+      "cpu_cycles": 9949936,
+      "duration": {
+        "nanos": 12568009,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(0102))), id: 99 }])",
+      "instructions": 8652502,
+      "ref_cpu_cycles": 7139041
+    },
+    {
+      "args": [
+        "0x010203"
+      ],
+      "avg_cpu_cycles": 9793,
+      "avg_instructions": 8984,
+      "avg_ref_cpu_cycles": 7028,
+      "calls": 1000,
+      "cpu_cycles": 9793128,
+      "duration": {
+        "nanos": 12372949,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(010203))), id: 102 }])",
+      "instructions": 8984046,
+      "ref_cpu_cycles": 7028252
+    },
+    {
+      "args": [
+        "0x0102030405060708090a0b0c0d0e0f"
+      ],
+      "avg_cpu_cycles": 11619,
+      "avg_instructions": 13256,
+      "avg_ref_cpu_cycles": 8332,
+      "calls": 1000,
+      "cpu_cycles": 11619926,
+      "duration": {
+        "nanos": 12825693,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(0102030405060708090a0b0c0d0e0f))), id: 105 }])",
+      "instructions": 13256487,
+      "ref_cpu_cycles": 8332716
+    },
+    {
+      "args": [
+        "u\"A\""
+      ],
+      "avg_cpu_cycles": 10305,
+      "avg_instructions": 7737,
+      "avg_ref_cpu_cycles": 7395,
+      "calls": 1000,
+      "cpu_cycles": 10305990,
+      "duration": {
+        "nanos": 12594101,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"A\"))), id: 108 }])",
+      "instructions": 7737929,
+      "ref_cpu_cycles": 7395997
+    },
+    {
+      "args": [
+        "u\"AB\""
+      ],
+      "avg_cpu_cycles": 9209,
+      "avg_instructions": 8158,
+      "avg_ref_cpu_cycles": 6608,
+      "calls": 1000,
+      "cpu_cycles": 9209580,
+      "duration": {
+        "nanos": 12286492,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"AB\"))), id: 111 }])",
+      "instructions": 8158333,
+      "ref_cpu_cycles": 6608105
+    },
+    {
+      "args": [
+        "u\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\""
+      ],
+      "avg_cpu_cycles": 15610,
+      "avg_instructions": 20430,
+      "avg_ref_cpu_cycles": 11185,
+      "calls": 1000,
+      "cpu_cycles": 15610311,
+      "duration": {
+        "nanos": 13619308,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"))), id: 114 }])",
+      "instructions": 20430268,
+      "ref_cpu_cycles": 11185433
+    },
+    {
+      "args": [
+        "u2"
+      ],
+      "avg_cpu_cycles": 8624,
+      "avg_instructions": 7091,
+      "avg_ref_cpu_cycles": 6196,
+      "calls": 1000,
+      "cpu_cycles": 8624133,
+      "duration": {
+        "nanos": 12189627,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(2)), id: 63 }])",
+      "instructions": 7091137,
+      "ref_cpu_cycles": 6196071
+    },
+    {
+      "args": [
+        "u30"
+      ],
+      "avg_cpu_cycles": 8493,
+      "avg_instructions": 7372,
+      "avg_ref_cpu_cycles": 6115,
+      "calls": 1000,
+      "cpu_cycles": 8493686,
+      "duration": {
+        "nanos": 12027357,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(30)), id: 66 }])",
+      "instructions": 7372688,
+      "ref_cpu_cycles": 6115340
+    },
+    {
+      "args": [
+        "u400"
+      ],
+      "avg_cpu_cycles": 8406,
+      "avg_instructions": 7384,
+      "avg_ref_cpu_cycles": 6031,
+      "calls": 1000,
+      "cpu_cycles": 8406873,
+      "duration": {
+        "nanos": 11948999,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(400)), id: 69 }])",
+      "instructions": 7384812,
+      "ref_cpu_cycles": 6031683
+    },
+    {
+      "args": [
+        "u5000"
+      ],
+      "avg_cpu_cycles": 8396,
+      "avg_instructions": 7391,
+      "avg_ref_cpu_cycles": 6023,
+      "calls": 1000,
+      "cpu_cycles": 8396363,
+      "duration": {
+        "nanos": 12130932,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(5000)), id: 72 }])",
+      "instructions": 7391781,
+      "ref_cpu_cycles": 6023304
+    },
+    {
+      "args": [
+        "u60000"
+      ],
+      "avg_cpu_cycles": 8482,
+      "avg_instructions": 7406,
+      "avg_ref_cpu_cycles": 6096,
+      "calls": 1000,
+      "cpu_cycles": 8482894,
+      "duration": {
+        "nanos": 12026318,
+        "secs": 0
+      },
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(60000)), id: 75 }])",
+      "instructions": 7406786,
+      "ref_cpu_cycles": 6096853
+    }
+  ],
+  "true": [
+    {
+      "args": [],
+      "avg_cpu_cycles": 2962,
+      "avg_instructions": 1883,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 2962409,
+      "duration": {
+        "nanos": 10750763,
+        "secs": 0
+      },
+      "expression": "true",
+      "instructions": 1883649,
+      "ref_cpu_cycles": 0
+    }
+  ],
+  "tx-sender": [
+    {
+      "args": [],
+      "avg_cpu_cycles": 3208,
+      "avg_instructions": 1861,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 2000,
+      "cpu_cycles": 6416211,
+      "duration": {
+        "nanos": 21586886,
+        "secs": 0
+      },
+      "expression": "tx-sender",
+      "instructions": 3723453,
+      "ref_cpu_cycles": 0
+    }
+  ]
+}
