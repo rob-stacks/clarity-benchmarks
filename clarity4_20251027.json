@@ -5,18 +5,18 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 8014,
+      "avg_cpu_cycles": 9435,
       "avg_instructions": 6911,
-      "avg_ref_cpu_cycles": 5765,
+      "avg_ref_cpu_cycles": 6747,
       "calls": 1000,
-      "cpu_cycles": 8014160,
+      "cpu_cycles": 9435503,
       "duration": {
-        "nanos": 11942954,
+        "nanos": 12379910,
         "secs": 0
       },
       "expression": "* ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 33 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 34 }])",
-      "instructions": 6911571,
-      "ref_cpu_cycles": 5765550
+      "instructions": 6911701,
+      "ref_cpu_cycles": 6747356
     },
     {
       "args": [
@@ -24,18 +24,18 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 7793,
-      "avg_instructions": 8068,
-      "avg_ref_cpu_cycles": 5607,
+      "avg_cpu_cycles": 9290,
+      "avg_instructions": 8045,
+      "avg_ref_cpu_cycles": 6650,
       "calls": 1000,
-      "cpu_cycles": 7793162,
+      "cpu_cycles": 9290138,
       "duration": {
-        "nanos": 12000509,
+        "nanos": 12468278,
         "secs": 0
       },
       "expression": "* ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 37 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 38 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 39 }])",
-      "instructions": 8068280,
-      "ref_cpu_cycles": 5607679
+      "instructions": 8045650,
+      "ref_cpu_cycles": 6650000
     },
     {
       "args": [
@@ -44,18 +44,18 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 7933,
+      "avg_cpu_cycles": 9520,
       "avg_instructions": 9173,
-      "avg_ref_cpu_cycles": 5682,
+      "avg_ref_cpu_cycles": 6807,
       "calls": 1000,
-      "cpu_cycles": 7933013,
+      "cpu_cycles": 9520382,
       "duration": {
-        "nanos": 11800915,
+        "nanos": 12365151,
         "secs": 0
       },
       "expression": "* ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 42 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 43 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 44 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 45 }])",
-      "instructions": 9173723,
-      "ref_cpu_cycles": 5682425
+      "instructions": 9173779,
+      "ref_cpu_cycles": 6807871
     }
   ],
   "+": [
@@ -66,53 +66,35 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 8355,
+      "avg_cpu_cycles": 9344,
       "avg_instructions": 8958,
-      "avg_ref_cpu_cycles": 5997,
+      "avg_ref_cpu_cycles": 6688,
       "calls": 1000,
-      "cpu_cycles": 8355281,
+      "cpu_cycles": 9344553,
       "duration": {
-        "nanos": 12056436,
+        "nanos": 12349382,
         "secs": 0
       },
       "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 12 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 13 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 14 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 15 }])",
-      "instructions": 8958803,
-      "ref_cpu_cycles": 5997768
+      "instructions": 8958413,
+      "ref_cpu_cycles": 6688171
     },
     {
       "args": [
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 10137,
-      "avg_instructions": 6656,
-      "avg_ref_cpu_cycles": 0,
-      "calls": 1000,
-      "cpu_cycles": 10137865,
-      "duration": {
-        "nanos": 12570208,
-        "secs": 0
-      },
-      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 126 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 127 }])",
-      "instructions": 6656518,
-      "ref_cpu_cycles": 0
-    },
-    {
-      "args": [
-        "1",
-        "1"
-      ],
-      "avg_cpu_cycles": 7678,
+      "avg_cpu_cycles": 11063,
       "avg_instructions": 6644,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 7678213,
+      "cpu_cycles": 11063037,
       "duration": {
-        "nanos": 11718991,
+        "nanos": 13043544,
         "secs": 0
       },
-      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 139 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 140 }])",
-      "instructions": 6644444,
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 162 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 163 }])",
+      "instructions": 6644293,
       "ref_cpu_cycles": 0
     },
     {
@@ -120,18 +102,36 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 7854,
-      "avg_instructions": 6774,
-      "avg_ref_cpu_cycles": 5649,
+      "avg_cpu_cycles": 9015,
+      "avg_instructions": 6644,
+      "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 7854672,
+      "cpu_cycles": 9015976,
       "duration": {
-        "nanos": 11857854,
+        "nanos": 12142363,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 175 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 176 }])",
+      "instructions": 6644644,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "1",
+        "1"
+      ],
+      "avg_cpu_cycles": 9428,
+      "avg_instructions": 6774,
+      "avg_ref_cpu_cycles": 6740,
+      "calls": 1000,
+      "cpu_cycles": 9428944,
+      "duration": {
+        "nanos": 12464951,
         "secs": 0
       },
       "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 3 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 4 }])",
-      "instructions": 6774568,
-      "ref_cpu_cycles": 5649042
+      "instructions": 6774637,
+      "ref_cpu_cycles": 6740307
     },
     {
       "args": [
@@ -139,53 +139,53 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 7777,
-      "avg_instructions": 7866,
-      "avg_ref_cpu_cycles": 5586,
+      "avg_cpu_cycles": 9154,
+      "avg_instructions": 7865,
+      "avg_ref_cpu_cycles": 6557,
       "calls": 1000,
-      "cpu_cycles": 7777676,
+      "cpu_cycles": 9154310,
       "duration": {
-        "nanos": 11915909,
+        "nanos": 12565865,
         "secs": 0
       },
       "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 7 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 8 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 9 }])",
-      "instructions": 7866152,
-      "ref_cpu_cycles": 5586665
+      "instructions": 7865965,
+      "ref_cpu_cycles": 6557831
     },
     {
       "args": [
         "2",
         "2"
       ],
-      "avg_cpu_cycles": 7020,
-      "avg_instructions": 6615,
-      "avg_ref_cpu_cycles": 0,
-      "calls": 1000,
-      "cpu_cycles": 7020995,
-      "duration": {
-        "nanos": 12238407,
-        "secs": 0
-      },
-      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(2)), id: 130 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 131 }])",
-      "instructions": 6615952,
-      "ref_cpu_cycles": 0
-    },
-    {
-      "args": [
-        "2",
-        "2"
-      ],
-      "avg_cpu_cycles": 6753,
+      "avg_cpu_cycles": 8036,
       "avg_instructions": 6603,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 6753617,
+      "cpu_cycles": 8036561,
       "duration": {
-        "nanos": 11442703,
+        "nanos": 12039073,
         "secs": 0
       },
-      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(2)), id: 143 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 144 }])",
-      "instructions": 6603916,
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(2)), id: 166 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 167 }])",
+      "instructions": 6603876,
+      "ref_cpu_cycles": 0
+    },
+    {
+      "args": [
+        "2",
+        "2"
+      ],
+      "avg_cpu_cycles": 7847,
+      "avg_instructions": 6604,
+      "avg_ref_cpu_cycles": 0,
+      "calls": 1000,
+      "cpu_cycles": 7847926,
+      "duration": {
+        "nanos": 11924602,
+        "secs": 0
+      },
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(Int(2)), id: 179 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 180 }])",
+      "instructions": 6604455,
       "ref_cpu_cycles": 0
     },
     {
@@ -193,17 +193,17 @@
         "u1",
         "u2"
       ],
-      "avg_cpu_cycles": 8272,
+      "avg_cpu_cycles": 9487,
       "avg_instructions": 6642,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 8272767,
+      "cpu_cycles": 9487625,
       "duration": {
-        "nanos": 11802540,
+        "nanos": 12404077,
         "secs": 0
       },
-      "expression": "+ ([SymbolicExpression { expr: LiteralValue(UInt(1)), id: 151 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 152 }])",
-      "instructions": 6642986,
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(UInt(1)), id: 187 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 188 }])",
+      "instructions": 6642763,
       "ref_cpu_cycles": 0
     },
     {
@@ -211,17 +211,17 @@
         "u1",
         "u2"
       ],
-      "avg_cpu_cycles": 7584,
+      "avg_cpu_cycles": 8935,
       "avg_instructions": 6643,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 7584123,
+      "cpu_cycles": 8935047,
       "duration": {
-        "nanos": 11939972,
+        "nanos": 12323900,
         "secs": 0
       },
-      "expression": "+ ([SymbolicExpression { expr: LiteralValue(UInt(1)), id: 158 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 159 }])",
-      "instructions": 6643236,
+      "expression": "+ ([SymbolicExpression { expr: LiteralValue(UInt(1)), id: 194 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 195 }])",
+      "instructions": 6643148,
       "ref_cpu_cycles": 0
     }
   ],
@@ -231,18 +231,18 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 8327,
-      "avg_instructions": 6823,
-      "avg_ref_cpu_cycles": 5971,
+      "avg_cpu_cycles": 9565,
+      "avg_instructions": 6822,
+      "avg_ref_cpu_cycles": 6845,
       "calls": 1000,
-      "cpu_cycles": 8327498,
+      "cpu_cycles": 9565515,
       "duration": {
-        "nanos": 12047882,
+        "nanos": 12548186,
         "secs": 0
       },
       "expression": "- ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 18 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 19 }])",
-      "instructions": 6823510,
-      "ref_cpu_cycles": 5971567
+      "instructions": 6822837,
+      "ref_cpu_cycles": 6845776
     },
     {
       "args": [
@@ -250,18 +250,18 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 7762,
-      "avg_instructions": 7925,
-      "avg_ref_cpu_cycles": 5569,
+      "avg_cpu_cycles": 9188,
+      "avg_instructions": 7913,
+      "avg_ref_cpu_cycles": 6583,
       "calls": 1000,
-      "cpu_cycles": 7762004,
+      "cpu_cycles": 9188451,
       "duration": {
-        "nanos": 12103079,
+        "nanos": 12368205,
         "secs": 0
       },
       "expression": "- ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 22 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 23 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 24 }])",
-      "instructions": 7925860,
-      "ref_cpu_cycles": 5569907
+      "instructions": 7913573,
+      "ref_cpu_cycles": 6583234
     },
     {
       "args": [
@@ -270,18 +270,18 @@
         "1",
         "1"
       ],
-      "avg_cpu_cycles": 7965,
+      "avg_cpu_cycles": 9538,
       "avg_instructions": 9005,
-      "avg_ref_cpu_cycles": 5719,
+      "avg_ref_cpu_cycles": 6815,
       "calls": 1000,
-      "cpu_cycles": 7965653,
+      "cpu_cycles": 9538195,
       "duration": {
-        "nanos": 12071275,
+        "nanos": 12737172,
         "secs": 0
       },
       "expression": "- ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 27 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 28 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 29 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 30 }])",
-      "instructions": 9005432,
-      "ref_cpu_cycles": 5719665
+      "instructions": 9005663,
+      "ref_cpu_cycles": 6815984
     }
   ],
   "as-contract?": [
@@ -291,18 +291,18 @@
         "( + 1 1 )",
         "( + 2 2 )"
       ],
-      "avg_cpu_cycles": 33266,
-      "avg_instructions": 38382,
-      "avg_ref_cpu_cycles": 34301,
+      "avg_cpu_cycles": 34391,
+      "avg_instructions": 38581,
+      "avg_ref_cpu_cycles": 36871,
       "calls": 1000,
-      "cpu_cycles": 33266125,
+      "cpu_cycles": 34391964,
       "duration": {
-        "nanos": 68549805,
+        "nanos": 74193077,
         "secs": 0
       },
-      "expression": "as-contract? ([SymbolicExpression { expr: List([SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"with-all-assets-unsafe\")), id: 136 }]), id: 135 }]), id: 134 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 138 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 139 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 140 }]), id: 137 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 142 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 143 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 144 }]), id: 141 }])",
-      "instructions": 38382174,
-      "ref_cpu_cycles": 34301365
+      "expression": "as-contract? ([SymbolicExpression { expr: List([SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"with-all-assets-unsafe\")), id: 172 }]), id: 171 }]), id: 170 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 174 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 175 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 176 }]), id: 173 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 178 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 179 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 180 }]), id: 177 }])",
+      "instructions": 38581953,
+      "ref_cpu_cycles": 36871191
     },
     {
       "args": [
@@ -310,36 +310,36 @@
         "( + 1 1 )",
         "( + 2 2 )"
       ],
-      "avg_cpu_cycles": 40031,
-      "avg_instructions": 39494,
-      "avg_ref_cpu_cycles": 41081,
+      "avg_cpu_cycles": 42205,
+      "avg_instructions": 39633,
+      "avg_ref_cpu_cycles": 44078,
       "calls": 1000,
-      "cpu_cycles": 40031783,
+      "cpu_cycles": 42205922,
       "duration": {
-        "nanos": 70457274,
+        "nanos": 76928867,
         "secs": 0
       },
-      "expression": "as-contract? ([SymbolicExpression { expr: List([SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"with-stx\")), id: 122 }, SymbolicExpression { expr: LiteralValue(UInt(100)), id: 123 }]), id: 121 }]), id: 120 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 125 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 126 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 127 }]), id: 124 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 129 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 130 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 131 }]), id: 128 }])",
-      "instructions": 39494200,
-      "ref_cpu_cycles": 41081705
+      "expression": "as-contract? ([SymbolicExpression { expr: List([SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"with-stx\")), id: 158 }, SymbolicExpression { expr: LiteralValue(UInt(100)), id: 159 }]), id: 157 }]), id: 156 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 161 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 162 }, SymbolicExpression { expr: LiteralValue(Int(1)), id: 163 }]), id: 160 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 165 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 166 }, SymbolicExpression { expr: LiteralValue(Int(2)), id: 167 }]), id: 164 }])",
+      "instructions": 39633321,
+      "ref_cpu_cycles": 44078062
     },
     {
       "args": [
         "( )",
         "( + u1 u2 )"
       ],
-      "avg_cpu_cycles": 22213,
-      "avg_instructions": 23197,
-      "avg_ref_cpu_cycles": 21382,
+      "avg_cpu_cycles": 22832,
+      "avg_instructions": 23258,
+      "avg_ref_cpu_cycles": 22824,
       "calls": 1000,
-      "cpu_cycles": 22213896,
+      "cpu_cycles": 22832961,
       "duration": {
-        "nanos": 40569669,
+        "nanos": 43323248,
         "secs": 0
       },
-      "expression": "as-contract? ([SymbolicExpression { expr: List([]), id: 155 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 157 }, SymbolicExpression { expr: LiteralValue(UInt(1)), id: 158 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 159 }]), id: 156 }])",
-      "instructions": 23197493,
-      "ref_cpu_cycles": 21382410
+      "expression": "as-contract? ([SymbolicExpression { expr: List([]), id: 191 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 193 }, SymbolicExpression { expr: LiteralValue(UInt(1)), id: 194 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 195 }]), id: 192 }])",
+      "instructions": 23258365,
+      "ref_cpu_cycles": 22824263
     }
   ],
   "contract-hash?": [
@@ -347,52 +347,122 @@
       "args": [
         "current-contract"
       ],
-      "avg_cpu_cycles": 61209,
-      "avg_instructions": 41079,
-      "avg_ref_cpu_cycles": 46262,
+      "avg_cpu_cycles": 63825,
+      "avg_instructions": 40910,
+      "avg_ref_cpu_cycles": 48207,
       "calls": 1000,
-      "cpu_cycles": 61209278,
+      "cpu_cycles": 63825367,
       "duration": {
-        "nanos": 49718752,
+        "nanos": 52972606,
         "secs": 0
       },
-      "expression": "contract-hash? ([SymbolicExpression { expr: Atom(ClarityName(\"current-contract\")), id: 117 }])",
-      "instructions": 41079560,
-      "ref_cpu_cycles": 46262853
+      "expression": "contract-hash? ([SymbolicExpression { expr: Atom(ClarityName(\"current-contract\")), id: 153 }])",
+      "instructions": 40910944,
+      "ref_cpu_cycles": 48207446
     }
   ],
   "current-contract": [
     {
       "args": [],
-      "avg_cpu_cycles": 3324,
+      "avg_cpu_cycles": 3421,
       "avg_instructions": 2102,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 3324640,
+      "cpu_cycles": 3421953,
       "duration": {
-        "nanos": 10615028,
+        "nanos": 10831989,
         "secs": 0
       },
       "expression": "current-contract",
-      "instructions": 2102659,
+      "instructions": 2102655,
       "ref_cpu_cycles": 0
     }
   ],
   "false": [
     {
       "args": [],
-      "avg_cpu_cycles": 2729,
-      "avg_instructions": 1866,
+      "avg_cpu_cycles": 2875,
+      "avg_instructions": 1874,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 2729569,
+      "cpu_cycles": 2875213,
       "duration": {
-        "nanos": 10459236,
+        "nanos": 11033533,
         "secs": 0
       },
       "expression": "false",
-      "instructions": 1866647,
+      "instructions": 1874652,
       "ref_cpu_cycles": 0
+    }
+  ],
+  "keccak256": [
+    {
+      "args": [
+        "0x12"
+      ],
+      "avg_cpu_cycles": 12720,
+      "avg_instructions": 13537,
+      "avg_ref_cpu_cycles": 9117,
+      "calls": 1000,
+      "cpu_cycles": 12720854,
+      "duration": {
+        "nanos": 13354919,
+        "secs": 0
+      },
+      "expression": "keccak256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(12))), id: 72 }])",
+      "instructions": 13537978,
+      "ref_cpu_cycles": 9117815
+    },
+    {
+      "args": [
+        "0x1234"
+      ],
+      "avg_cpu_cycles": 12003,
+      "avg_instructions": 13542,
+      "avg_ref_cpu_cycles": 8616,
+      "calls": 1000,
+      "cpu_cycles": 12003154,
+      "duration": {
+        "nanos": 13070214,
+        "secs": 0
+      },
+      "expression": "keccak256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(1234))), id: 75 }])",
+      "instructions": 13542315,
+      "ref_cpu_cycles": 8616006
+    },
+    {
+      "args": [
+        "0x12345678"
+      ],
+      "avg_cpu_cycles": 11776,
+      "avg_instructions": 13536,
+      "avg_ref_cpu_cycles": 8450,
+      "calls": 1000,
+      "cpu_cycles": 11776701,
+      "duration": {
+        "nanos": 12979965,
+        "secs": 0
+      },
+      "expression": "keccak256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(12345678))), id: 78 }])",
+      "instructions": 13536300,
+      "ref_cpu_cycles": 8450687
+    },
+    {
+      "args": [
+        "0x1234567812345678123456781234567812345678"
+      ],
+      "avg_cpu_cycles": 11858,
+      "avg_instructions": 13523,
+      "avg_ref_cpu_cycles": 8505,
+      "calls": 1000,
+      "cpu_cycles": 11858953,
+      "duration": {
+        "nanos": 13134340,
+        "secs": 0
+      },
+      "expression": "keccak256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(1234567812345678123456781234567812345678))), id: 81 }])",
+      "instructions": 13523783,
+      "ref_cpu_cycles": 8505084
     }
   ],
   "restrict-assets?": [
@@ -402,18 +472,158 @@
         "( )",
         "( + u1 u2 )"
       ],
-      "avg_cpu_cycles": 29523,
-      "avg_instructions": 27833,
-      "avg_ref_cpu_cycles": 29587,
+      "avg_cpu_cycles": 30691,
+      "avg_instructions": 28016,
+      "avg_ref_cpu_cycles": 31453,
       "calls": 1000,
-      "cpu_cycles": 29523676,
+      "cpu_cycles": 30691296,
       "duration": {
-        "nanos": 67109621,
+        "nanos": 72725862,
         "secs": 0
       },
-      "expression": "restrict-assets? ([SymbolicExpression { expr: Atom(ClarityName(\"tx-sender\")), id: 147 }, SymbolicExpression { expr: List([]), id: 148 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 150 }, SymbolicExpression { expr: LiteralValue(UInt(1)), id: 151 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 152 }]), id: 149 }])",
-      "instructions": 27833187,
-      "ref_cpu_cycles": 29587978
+      "expression": "restrict-assets? ([SymbolicExpression { expr: Atom(ClarityName(\"tx-sender\")), id: 183 }, SymbolicExpression { expr: List([]), id: 184 }, SymbolicExpression { expr: List([SymbolicExpression { expr: Atom(ClarityName(\"+\")), id: 186 }, SymbolicExpression { expr: LiteralValue(UInt(1)), id: 187 }, SymbolicExpression { expr: LiteralValue(UInt(2)), id: 188 }]), id: 185 }])",
+      "instructions": 28016967,
+      "ref_cpu_cycles": 31453835
+    }
+  ],
+  "sha256": [
+    {
+      "args": [
+        "0x12"
+      ],
+      "avg_cpu_cycles": 13473,
+      "avg_instructions": 10091,
+      "avg_ref_cpu_cycles": 9667,
+      "calls": 1000,
+      "cpu_cycles": 13473842,
+      "duration": {
+        "nanos": 13448800,
+        "secs": 0
+      },
+      "expression": "sha256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(12))), id: 48 }])",
+      "instructions": 10091708,
+      "ref_cpu_cycles": 9667238
+    },
+    {
+      "args": [
+        "0x1234"
+      ],
+      "avg_cpu_cycles": 11207,
+      "avg_instructions": 10125,
+      "avg_ref_cpu_cycles": 8047,
+      "calls": 1000,
+      "cpu_cycles": 11207173,
+      "duration": {
+        "nanos": 12919439,
+        "secs": 0
+      },
+      "expression": "sha256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(1234))), id: 51 }])",
+      "instructions": 10125172,
+      "ref_cpu_cycles": 8047431
+    },
+    {
+      "args": [
+        "0x12345678"
+      ],
+      "avg_cpu_cycles": 10988,
+      "avg_instructions": 10089,
+      "avg_ref_cpu_cycles": 7887,
+      "calls": 1000,
+      "cpu_cycles": 10988347,
+      "duration": {
+        "nanos": 12765050,
+        "secs": 0
+      },
+      "expression": "sha256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(12345678))), id: 54 }])",
+      "instructions": 10089488,
+      "ref_cpu_cycles": 7887698
+    },
+    {
+      "args": [
+        "0x1234567812345678123456781234567812345678"
+      ],
+      "avg_cpu_cycles": 10812,
+      "avg_instructions": 10084,
+      "avg_ref_cpu_cycles": 7754,
+      "calls": 1000,
+      "cpu_cycles": 10812411,
+      "duration": {
+        "nanos": 12961036,
+        "secs": 0
+      },
+      "expression": "sha256 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(1234567812345678123456781234567812345678))), id: 57 }])",
+      "instructions": 10084290,
+      "ref_cpu_cycles": 7754698
+    }
+  ],
+  "sha512": [
+    {
+      "args": [
+        "0x12"
+      ],
+      "avg_cpu_cycles": 12375,
+      "avg_instructions": 12641,
+      "avg_ref_cpu_cycles": 8861,
+      "calls": 1000,
+      "cpu_cycles": 12375817,
+      "duration": {
+        "nanos": 13255489,
+        "secs": 0
+      },
+      "expression": "sha512 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(12))), id: 60 }])",
+      "instructions": 12641779,
+      "ref_cpu_cycles": 8861657
+    },
+    {
+      "args": [
+        "0x1234"
+      ],
+      "avg_cpu_cycles": 11676,
+      "avg_instructions": 12650,
+      "avg_ref_cpu_cycles": 8371,
+      "calls": 1000,
+      "cpu_cycles": 11676808,
+      "duration": {
+        "nanos": 13190362,
+        "secs": 0
+      },
+      "expression": "sha512 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(1234))), id: 63 }])",
+      "instructions": 12650094,
+      "ref_cpu_cycles": 8371419
+    },
+    {
+      "args": [
+        "0x12345678"
+      ],
+      "avg_cpu_cycles": 11360,
+      "avg_instructions": 12640,
+      "avg_ref_cpu_cycles": 8147,
+      "calls": 1000,
+      "cpu_cycles": 11360573,
+      "duration": {
+        "nanos": 12976260,
+        "secs": 0
+      },
+      "expression": "sha512 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(12345678))), id: 66 }])",
+      "instructions": 12640016,
+      "ref_cpu_cycles": 8147979
+    },
+    {
+      "args": [
+        "0x1234567812345678123456781234567812345678"
+      ],
+      "avg_cpu_cycles": 11428,
+      "avg_instructions": 12635,
+      "avg_ref_cpu_cycles": 8200,
+      "calls": 1000,
+      "cpu_cycles": 11428856,
+      "duration": {
+        "nanos": 13088189,
+        "secs": 0
+      },
+      "expression": "sha512 ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(1234567812345678123456781234567812345678))), id: 69 }])",
+      "instructions": 12635280,
+      "ref_cpu_cycles": 8200248
     }
   ],
   "to-ascii?": [
@@ -421,425 +631,425 @@
       "args": [
         "false"
       ],
-      "avg_cpu_cycles": 13590,
-      "avg_instructions": 11991,
-      "avg_ref_cpu_cycles": 11780,
+      "avg_cpu_cycles": 13926,
+      "avg_instructions": 11950,
+      "avg_ref_cpu_cycles": 12094,
       "calls": 1000,
-      "cpu_cycles": 13590574,
+      "cpu_cycles": 13926552,
       "duration": {
-        "nanos": 38099709,
+        "nanos": 40611933,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"false\")), id: 81 }])",
-      "instructions": 11991908,
-      "ref_cpu_cycles": 11780342
+      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"false\")), id: 117 }])",
+      "instructions": 11950760,
+      "ref_cpu_cycles": 12094621
     },
     {
       "args": [
         "true"
       ],
-      "avg_cpu_cycles": 13956,
-      "avg_instructions": 11936,
-      "avg_ref_cpu_cycles": 12214,
+      "avg_cpu_cycles": 14687,
+      "avg_instructions": 12016,
+      "avg_ref_cpu_cycles": 13010,
       "calls": 1000,
-      "cpu_cycles": 13956247,
+      "cpu_cycles": 14687778,
       "duration": {
-        "nanos": 38494074,
+        "nanos": 41480860,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"true\")), id: 78 }])",
-      "instructions": 11936723,
-      "ref_cpu_cycles": 12214321
+      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"true\")), id: 114 }])",
+      "instructions": 12016325,
+      "ref_cpu_cycles": 13010459
     },
     {
       "args": [
         "tx-sender"
       ],
-      "avg_cpu_cycles": 20642,
-      "avg_instructions": 23991,
-      "avg_ref_cpu_cycles": 17066,
+      "avg_cpu_cycles": 21002,
+      "avg_instructions": 23915,
+      "avg_ref_cpu_cycles": 17436,
       "calls": 1000,
-      "cpu_cycles": 20642924,
+      "cpu_cycles": 21002763,
       "duration": {
-        "nanos": 39963413,
+        "nanos": 42717758,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"tx-sender\")), id: 87 }])",
-      "instructions": 23991605,
-      "ref_cpu_cycles": 17066161
+      "expression": "to-ascii? ([SymbolicExpression { expr: Atom(ClarityName(\"tx-sender\")), id: 123 }])",
+      "instructions": 23915028,
+      "ref_cpu_cycles": 17436433
     },
     {
       "args": [
         "1"
       ],
-      "avg_cpu_cycles": 10209,
-      "avg_instructions": 6852,
-      "avg_ref_cpu_cycles": 7328,
+      "avg_cpu_cycles": 10510,
+      "avg_instructions": 6855,
+      "avg_ref_cpu_cycles": 7527,
       "calls": 1000,
-      "cpu_cycles": 10209694,
+      "cpu_cycles": 10510423,
       "duration": {
-        "nanos": 12420893,
+        "nanos": 12741938,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 48 }])",
-      "instructions": 6852250,
-      "ref_cpu_cycles": 7328965
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1)), id: 84 }])",
+      "instructions": 6855444,
+      "ref_cpu_cycles": 7527268
     },
     {
       "args": [
         "10"
       ],
-      "avg_cpu_cycles": 8401,
+      "avg_cpu_cycles": 8685,
       "avg_instructions": 6869,
-      "avg_ref_cpu_cycles": 6029,
+      "avg_ref_cpu_cycles": 6224,
       "calls": 1000,
-      "cpu_cycles": 8401578,
+      "cpu_cycles": 8685332,
       "duration": {
-        "nanos": 12204569,
+        "nanos": 12376671,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10)), id: 51 }])",
-      "instructions": 6869439,
-      "ref_cpu_cycles": 6029821
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10)), id: 87 }])",
+      "instructions": 6869634,
+      "ref_cpu_cycles": 6224267
     },
     {
       "args": [
         "100"
       ],
-      "avg_cpu_cycles": 8099,
-      "avg_instructions": 6881,
-      "avg_ref_cpu_cycles": 5811,
+      "avg_cpu_cycles": 8622,
+      "avg_instructions": 6885,
+      "avg_ref_cpu_cycles": 6176,
       "calls": 1000,
-      "cpu_cycles": 8099767,
+      "cpu_cycles": 8622969,
       "duration": {
-        "nanos": 11954857,
+        "nanos": 12263635,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(100)), id: 54 }])",
-      "instructions": 6881575,
-      "ref_cpu_cycles": 5811302
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(100)), id: 90 }])",
+      "instructions": 6885626,
+      "ref_cpu_cycles": 6176387
     },
     {
       "args": [
         "1000"
       ],
-      "avg_cpu_cycles": 8072,
-      "avg_instructions": 6886,
-      "avg_ref_cpu_cycles": 5803,
+      "avg_cpu_cycles": 8443,
+      "avg_instructions": 6888,
+      "avg_ref_cpu_cycles": 6035,
       "calls": 1000,
-      "cpu_cycles": 8072505,
+      "cpu_cycles": 8443182,
       "duration": {
-        "nanos": 12071669,
+        "nanos": 12231442,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1000)), id: 57 }])",
-      "instructions": 6886429,
-      "ref_cpu_cycles": 5803056
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(1000)), id: 93 }])",
+      "instructions": 6888391,
+      "ref_cpu_cycles": 6035540
     },
     {
       "args": [
         "10000"
       ],
-      "avg_cpu_cycles": 7924,
-      "avg_instructions": 6900,
-      "avg_ref_cpu_cycles": 5689,
+      "avg_cpu_cycles": 8523,
+      "avg_instructions": 6904,
+      "avg_ref_cpu_cycles": 6113,
       "calls": 1000,
-      "cpu_cycles": 7924209,
+      "cpu_cycles": 8523752,
       "duration": {
-        "nanos": 11912646,
+        "nanos": 12400764,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10000)), id: 60 }])",
-      "instructions": 6900273,
-      "ref_cpu_cycles": 5689474
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Int(10000)), id: 96 }])",
+      "instructions": 6904398,
+      "ref_cpu_cycles": 6113345
     },
     {
       "args": [
         "ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.dummy001"
       ],
-      "avg_cpu_cycles": 15491,
-      "avg_instructions": 20161,
-      "avg_ref_cpu_cycles": 11109,
+      "avg_cpu_cycles": 15852,
+      "avg_instructions": 20163,
+      "avg_ref_cpu_cycles": 11365,
       "calls": 1000,
-      "cpu_cycles": 15491120,
+      "cpu_cycles": 15852578,
       "duration": {
-        "nanos": 13804960,
+        "nanos": 13949736,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Contract(QualifiedContractIdentifier { issuer: StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE), name: ContractName(\"dummy001\") }))), id: 90 }])",
-      "instructions": 20161322,
-      "ref_cpu_cycles": 11109889
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Contract(QualifiedContractIdentifier { issuer: StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE), name: ContractName(\"dummy001\") }))), id: 126 }])",
+      "instructions": 20163260,
+      "ref_cpu_cycles": 11365648
     },
     {
       "args": [
         "ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.dummy0123456789"
       ],
-      "avg_cpu_cycles": 14760,
-      "avg_instructions": 20204,
-      "avg_ref_cpu_cycles": 10578,
+      "avg_cpu_cycles": 15396,
+      "avg_instructions": 20211,
+      "avg_ref_cpu_cycles": 11012,
       "calls": 1000,
-      "cpu_cycles": 14760900,
+      "cpu_cycles": 15396256,
       "duration": {
-        "nanos": 13529715,
+        "nanos": 13902912,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Contract(QualifiedContractIdentifier { issuer: StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE), name: ContractName(\"dummy0123456789\") }))), id: 93 }])",
-      "instructions": 20204467,
-      "ref_cpu_cycles": 10578820
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Contract(QualifiedContractIdentifier { issuer: StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE), name: ContractName(\"dummy0123456789\") }))), id: 129 }])",
+      "instructions": 20211432,
+      "ref_cpu_cycles": 11012001
     },
     {
       "args": [
         "ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE"
       ],
-      "avg_cpu_cycles": 15097,
-      "avg_instructions": 19155,
-      "avg_ref_cpu_cycles": 10815,
+      "avg_cpu_cycles": 16092,
+      "avg_instructions": 19157,
+      "avg_ref_cpu_cycles": 11516,
       "calls": 1000,
-      "cpu_cycles": 15097258,
+      "cpu_cycles": 16092763,
       "duration": {
-        "nanos": 13852199,
+        "nanos": 14120907,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Standard(StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE)))), id: 84 }])",
-      "instructions": 19155927,
-      "ref_cpu_cycles": 10815560
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Principal(Standard(StandardPrincipalData(ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE)))), id: 120 }])",
+      "instructions": 19157637,
+      "ref_cpu_cycles": 11516869
     },
     {
       "args": [
         "0x01"
       ],
-      "avg_cpu_cycles": 10726,
-      "avg_instructions": 8065,
-      "avg_ref_cpu_cycles": 7710,
+      "avg_cpu_cycles": 11247,
+      "avg_instructions": 8057,
+      "avg_ref_cpu_cycles": 8066,
       "calls": 1000,
-      "cpu_cycles": 10726952,
+      "cpu_cycles": 11247151,
       "duration": {
-        "nanos": 12804194,
+        "nanos": 12959122,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(01))), id: 96 }])",
-      "instructions": 8065542,
-      "ref_cpu_cycles": 7710010
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(01))), id: 132 }])",
+      "instructions": 8057141,
+      "ref_cpu_cycles": 8066982
     },
     {
       "args": [
         "0x0102"
       ],
-      "avg_cpu_cycles": 9949,
-      "avg_instructions": 8652,
-      "avg_ref_cpu_cycles": 7139,
+      "avg_cpu_cycles": 10728,
+      "avg_instructions": 8651,
+      "avg_ref_cpu_cycles": 7699,
       "calls": 1000,
-      "cpu_cycles": 9949936,
+      "cpu_cycles": 10728237,
       "duration": {
-        "nanos": 12568009,
+        "nanos": 12838470,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(0102))), id: 99 }])",
-      "instructions": 8652502,
-      "ref_cpu_cycles": 7139041
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(0102))), id: 135 }])",
+      "instructions": 8651909,
+      "ref_cpu_cycles": 7699769
     },
     {
       "args": [
         "0x010203"
       ],
-      "avg_cpu_cycles": 9793,
-      "avg_instructions": 8984,
-      "avg_ref_cpu_cycles": 7028,
+      "avg_cpu_cycles": 10448,
+      "avg_instructions": 8979,
+      "avg_ref_cpu_cycles": 7499,
       "calls": 1000,
-      "cpu_cycles": 9793128,
+      "cpu_cycles": 10448915,
       "duration": {
-        "nanos": 12372949,
+        "nanos": 12678947,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(010203))), id: 102 }])",
-      "instructions": 8984046,
-      "ref_cpu_cycles": 7028252
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(010203))), id: 138 }])",
+      "instructions": 8979973,
+      "ref_cpu_cycles": 7499338
     },
     {
       "args": [
         "0x0102030405060708090a0b0c0d0e0f"
       ],
-      "avg_cpu_cycles": 11619,
-      "avg_instructions": 13256,
-      "avg_ref_cpu_cycles": 8332,
+      "avg_cpu_cycles": 12307,
+      "avg_instructions": 13253,
+      "avg_ref_cpu_cycles": 8828,
       "calls": 1000,
-      "cpu_cycles": 11619926,
+      "cpu_cycles": 12307120,
       "duration": {
-        "nanos": 12825693,
+        "nanos": 13389000,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(0102030405060708090a0b0c0d0e0f))), id: 105 }])",
-      "instructions": 13256487,
-      "ref_cpu_cycles": 8332716
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(Buffer(0102030405060708090a0b0c0d0e0f))), id: 141 }])",
+      "instructions": 13253921,
+      "ref_cpu_cycles": 8828274
     },
     {
       "args": [
         "u\"A\""
       ],
-      "avg_cpu_cycles": 10305,
-      "avg_instructions": 7737,
-      "avg_ref_cpu_cycles": 7395,
+      "avg_cpu_cycles": 10860,
+      "avg_instructions": 7738,
+      "avg_ref_cpu_cycles": 7796,
       "calls": 1000,
-      "cpu_cycles": 10305990,
+      "cpu_cycles": 10860980,
       "duration": {
-        "nanos": 12594101,
+        "nanos": 12823959,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"A\"))), id: 108 }])",
-      "instructions": 7737929,
-      "ref_cpu_cycles": 7395997
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"A\"))), id: 144 }])",
+      "instructions": 7738291,
+      "ref_cpu_cycles": 7796992
     },
     {
       "args": [
         "u\"AB\""
       ],
-      "avg_cpu_cycles": 9209,
-      "avg_instructions": 8158,
-      "avg_ref_cpu_cycles": 6608,
+      "avg_cpu_cycles": 10398,
+      "avg_instructions": 8160,
+      "avg_ref_cpu_cycles": 7451,
       "calls": 1000,
-      "cpu_cycles": 9209580,
+      "cpu_cycles": 10398243,
       "duration": {
-        "nanos": 12286492,
+        "nanos": 12772322,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"AB\"))), id: 111 }])",
-      "instructions": 8158333,
-      "ref_cpu_cycles": 6608105
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"AB\"))), id: 147 }])",
+      "instructions": 8160251,
+      "ref_cpu_cycles": 7451325
     },
     {
       "args": [
         "u\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\""
       ],
-      "avg_cpu_cycles": 15610,
-      "avg_instructions": 20430,
-      "avg_ref_cpu_cycles": 11185,
+      "avg_cpu_cycles": 16714,
+      "avg_instructions": 20510,
+      "avg_ref_cpu_cycles": 11961,
       "calls": 1000,
-      "cpu_cycles": 15610311,
+      "cpu_cycles": 16714171,
       "duration": {
-        "nanos": 13619308,
+        "nanos": 14171472,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"))), id: 114 }])",
-      "instructions": 20430268,
-      "ref_cpu_cycles": 11185433
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(Sequence(String(u\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"))), id: 150 }])",
+      "instructions": 20510134,
+      "ref_cpu_cycles": 11961089
     },
     {
       "args": [
         "u2"
       ],
-      "avg_cpu_cycles": 8624,
-      "avg_instructions": 7091,
-      "avg_ref_cpu_cycles": 6196,
+      "avg_cpu_cycles": 9035,
+      "avg_instructions": 7088,
+      "avg_ref_cpu_cycles": 6465,
       "calls": 1000,
-      "cpu_cycles": 8624133,
+      "cpu_cycles": 9035857,
       "duration": {
-        "nanos": 12189627,
+        "nanos": 13017600,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(2)), id: 63 }])",
-      "instructions": 7091137,
-      "ref_cpu_cycles": 6196071
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(2)), id: 99 }])",
+      "instructions": 7088845,
+      "ref_cpu_cycles": 6465662
     },
     {
       "args": [
         "u30"
       ],
-      "avg_cpu_cycles": 8493,
-      "avg_instructions": 7372,
-      "avg_ref_cpu_cycles": 6115,
+      "avg_cpu_cycles": 8939,
+      "avg_instructions": 7375,
+      "avg_ref_cpu_cycles": 6405,
       "calls": 1000,
-      "cpu_cycles": 8493686,
+      "cpu_cycles": 8939522,
       "duration": {
-        "nanos": 12027357,
+        "nanos": 12454338,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(30)), id: 66 }])",
-      "instructions": 7372688,
-      "ref_cpu_cycles": 6115340
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(30)), id: 102 }])",
+      "instructions": 7375579,
+      "ref_cpu_cycles": 6405014
     },
     {
       "args": [
         "u400"
       ],
-      "avg_cpu_cycles": 8406,
-      "avg_instructions": 7384,
-      "avg_ref_cpu_cycles": 6031,
+      "avg_cpu_cycles": 8814,
+      "avg_instructions": 7391,
+      "avg_ref_cpu_cycles": 6299,
       "calls": 1000,
-      "cpu_cycles": 8406873,
+      "cpu_cycles": 8814530,
       "duration": {
-        "nanos": 11948999,
+        "nanos": 12326617,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(400)), id: 69 }])",
-      "instructions": 7384812,
-      "ref_cpu_cycles": 6031683
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(400)), id: 105 }])",
+      "instructions": 7391756,
+      "ref_cpu_cycles": 6299811
     },
     {
       "args": [
         "u5000"
       ],
-      "avg_cpu_cycles": 8396,
-      "avg_instructions": 7391,
-      "avg_ref_cpu_cycles": 6023,
+      "avg_cpu_cycles": 8782,
+      "avg_instructions": 7393,
+      "avg_ref_cpu_cycles": 6286,
       "calls": 1000,
-      "cpu_cycles": 8396363,
+      "cpu_cycles": 8782667,
       "duration": {
-        "nanos": 12130932,
+        "nanos": 12379226,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(5000)), id: 72 }])",
-      "instructions": 7391781,
-      "ref_cpu_cycles": 6023304
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(5000)), id: 108 }])",
+      "instructions": 7393461,
+      "ref_cpu_cycles": 6286511
     },
     {
       "args": [
         "u60000"
       ],
-      "avg_cpu_cycles": 8482,
-      "avg_instructions": 7406,
-      "avg_ref_cpu_cycles": 6096,
+      "avg_cpu_cycles": 8760,
+      "avg_instructions": 7402,
+      "avg_ref_cpu_cycles": 6277,
       "calls": 1000,
-      "cpu_cycles": 8482894,
+      "cpu_cycles": 8760876,
       "duration": {
-        "nanos": 12026318,
+        "nanos": 12355797,
         "secs": 0
       },
-      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(60000)), id: 75 }])",
-      "instructions": 7406786,
-      "ref_cpu_cycles": 6096853
+      "expression": "to-ascii? ([SymbolicExpression { expr: LiteralValue(UInt(60000)), id: 111 }])",
+      "instructions": 7402456,
+      "ref_cpu_cycles": 6277866
     }
   ],
   "true": [
     {
       "args": [],
-      "avg_cpu_cycles": 2962,
+      "avg_cpu_cycles": 3381,
       "avg_instructions": 1883,
       "avg_ref_cpu_cycles": 0,
       "calls": 1000,
-      "cpu_cycles": 2962409,
+      "cpu_cycles": 3381162,
       "duration": {
-        "nanos": 10750763,
+        "nanos": 10720671,
         "secs": 0
       },
       "expression": "true",
-      "instructions": 1883649,
+      "instructions": 1883646,
       "ref_cpu_cycles": 0
     }
   ],
   "tx-sender": [
     {
       "args": [],
-      "avg_cpu_cycles": 3208,
-      "avg_instructions": 1861,
+      "avg_cpu_cycles": 3383,
+      "avg_instructions": 1869,
       "avg_ref_cpu_cycles": 0,
       "calls": 2000,
-      "cpu_cycles": 6416211,
+      "cpu_cycles": 6766656,
       "duration": {
-        "nanos": 21586886,
+        "nanos": 21500505,
         "secs": 0
       },
       "expression": "tx-sender",
-      "instructions": 3723453,
+      "instructions": 3739570,
       "ref_cpu_cycles": 0
     }
   ]
